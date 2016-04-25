@@ -1,0 +1,7 @@
+<template name="layoutApp">
+ 	{{#HammerTouchArea gestureMap=templateGestures}}
+		<div class="layout-app page-brand {{ cordova }}">
+	    	{{>Template.dynamic template=content}}
+		</div>
+	{{/HammerTouchArea}}
+</template>
